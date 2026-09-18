@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.heading-title{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+   height: 10vh;
+   margin-top: 20px;
+   /* background-image: url('https://images.unsplash.com/photo-1722970651149-372e8c8a0109?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); */
+   background-position: center;
+}
+#d{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15% 10% 8%;
+}
+#d1,
+#d2 {
+    margin: 0;
+}
+
+#d2 h2 {
+    margin: 0;
+}
+button{
+    width: 16%;
+    border: 1px solid white;
+    padding: 2px;
+    border-radius: 8px;
+}
+.add-task-button {
+    width: auto;
+    min-width: 110px;
+    padding: 10px 18px;
+    border: 0;
+    border-radius: 8px;
+    color: white;
+    background-color: #7c3aed;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 150ms ease, transform 150ms ease;
+}
+.add-task-button:hover {
+    background-color: #6d28d9;
+    transform: translateY(-1px);
+}
+.add-task-button:focus-visible {
+    outline: 3px solid #c4b5fd;
+    outline-offset: 2px;
+}
+#inp{
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: 4px;
+}
