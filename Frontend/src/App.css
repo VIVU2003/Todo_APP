@@ -21,7 +21,8 @@ html,body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 15% 10% 8%;
+    margin: 10% 10% 8%;
+
 }
 #d1,
 #d2 {
